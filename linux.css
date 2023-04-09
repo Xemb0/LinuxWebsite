@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-image: url(linux2.jpg);
+    object-fit: fill;
+    height: 100rem;
+}
+
+
+nav {
+    /* margin: -1rem; */
+    align-items: center;
+    display: flex;
+    background-color: #04163b;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* padding: 20px 0; */
+    text-align: center;
+    height: 5rem;
+    /* float: right; */
+    justify-content: space-between;
+    z-index: 3;
+    box-shadow: #333;
+    /* margin: .5rem; */
+    /* padding: .5rem;
+    padding-bottom: 1rem; */
+    /* left: 10rem; */
+    /* right: 0; */
+}
+
+nav.sticky {
+    display: flex;
+
+    background-color: #04163b;
+    z-index: 3;
+    padding: 1px 18%;
+    position: fixed;
+    top: 0;
+    /* background: black; */
+    /* padding: 10px 8%; */
+    align-items: center;
+    justify-content: space-between;
+    transition: padding 1s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+#input-container {
+    position: relative;
+    /* margin: 0; */
+    border-radius: 2rem;
+    padding: .2rem;
+    border: 2px solid rgb(255, 255, 255);
+    width: 10%;
+    /* right: 5rem;s */
+    /* right: 1rem; */
+}
+
+#input {
+    height: 20px;
+    width: 100%;
+    /* margin: 1; */
+    padding-left: 30px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 23, 99, 0);
+}
+
+
+
+
+nav ul {
+
+    display: flex;
+    width: 50%;
+    /* height: auto; */
+
+}
+
+.nav ul li {
+    background-color: #e4c639;
+    margin: 1rem;
+    display: flex;
+    padding: 1rem;
+    border-radius: 2rem;
+    /* transition: all ease-in-out; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav ul li:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+.nav-items-home:hover {
+    transition: .3s;
+    color: rgb(255, 255, 255);
+
+}
+
+.nav-items:hover {
+    background-color: rgb(252, 255, 103);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    margin: 1rem;
+    display: inline-block;
+    list-style: none;
+    /* margin: 20px 20px; */
+    color: rgb(255, 255, 255);
+    box-shadow: #04163b;
+    /* padding: 0.8rem; */
+    /* margin: 1rem; */
+    /* border-radius: 3rem; */
+}
+
+nav.sticky ul {
+    width: auto;
+}
+
+.search-box {
+    padding-right: 1rem;
+    width: 30%;
+    display: flex;
+    border-radius: 3rem;
+    /* border: 2px solid yellow; */
+    border:2px solid rgb(224, 213, 0);
+}
+
+.search {
+    border: 2px solid white;
+    right: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    position: absolute;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+.floating {
+    /* margin: 1rem; */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    /* padding: 1rem; */
+    position: fixed;
+    z-index: 3;
+    text-decoration: none;
+    list-style: none;
+
+    background-color: #e4c639;
+    transition: 1s margin ease-in-out;
+    transition-delay: .1s;
+    margin-top: 5%;
+}
+
+.floating1  {
+    /* background-color: #000000; */
+    margin-top: 30%;
+
+
+}
+.floating a {
+    text-decoration: none;
+
+}
+
+footer {
+    /* z-index: 4; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    bottom: -60rem;
+}
+
+.About {
+    width: 50%;
+
+    margin: 3rem;
+
+    text-align: center;
+    height: 20rem;
+    border: 4px solid#ffd000;
+}
+a{
+    text-decoration: none;
+}
+
+.Downloads {
+    width: 50%;
+    /* right: 0; */
+    /* float: right; */
+    text-align: center;
+    margin: 3rem;
+    height: 20rem;
+    border: 4px solid#ffd000;
+}
+.Downloads ul{
+    font-size: 3rem;
+}
+.downloads h3 {
+
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    font-size: 3rem;
+}
+.About h3{
+
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    font-size: 3rem;
+}
+
+h3 {
+margin: 1rem;
+}
+
+.intro {
+    float: right;
+    width: 60%;
+    margin: 2rem;
+    text-align: right;
+}
+
+.intro3 {
+    float: right;
+    width: 60%;
+    margin: 2rem;
+    margin-top: 25rem;
+    text-align: right;
+}
+
+.intro2 {
+    float: left;
+    width: 60%;
+    margin: 2rem;
+    text-align: left;
+}
+
+.intro4 {
+    float: left;
+    width: 60%;
+    margin: 2rem;
+    /* margin-top: 25rem; */
+    text-align: left;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to linux</title>
+    <link rel="stylesheet" href="linux.css">
+
+    <style>
+        h2,
+        h3 {
+            display: flex;
+            justify-content: center;
+            margin: 3rem;
+            font-size: 3rem;
+        }
+
+        .footerr .downloads {
+            margin: 0;
+            padding: 0;
+            width: 40%;
+            font-size: 2rem;
+        }
+
+        .footerr .about {
+            padding: 0;
+            width: 40%;
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .linux-img {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        iimg {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            /* margin: 1rem; */
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        body {
+
+            background-image: url(/css/Website/linux2-01-01.jpeg);
+            /* background-size: 150p; */
+            width: 100%;
+            height: 220rem;
+            border: 2px solid;
+            /* color: pink; */
+        }
+
+        ol {
+            display: flex;
+            font-size: 1.5rem;
+        }
+
+
+        .footerr {
+            /* margin-top: 200rem; */
+            display: flex;
+            width: 100%;
+        }
+
+        .partition {
+            width: 40%;
+            margin: 8rem;
+            /* border: 2px solid red; */
+
+            height: auto;
+        }
+
+        .partition1 {
+            /* border: 2px solid red; */
+            width: 40%;
+            margin: 8rem;
+            /* right: 1rem; */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header><img src="linux2.jpg" style="width: 100%; position: aboslute;"></header> -->
+
+    <nav class="nav" id="navbar">
+        <ul id="menu">
+            <li class="nav-items"><a href="kali linux.html" target="_blank"><b>Kali linux</b></a></li>
+            <li class="nav-items"><a href="Index.html" target="_blank"><b>HOME</b></a></li>
+            <li class="nav-items"><a href="linux cli.html" target="_blank"><b>linux</b></a></li>
+            <li class="nav-items"><a href="unix.html" target="_blank"><b>Unix</b></a></li>
+        </ul>
+
+
+        <from class="search-box">
+
+
+            <input class="search" type="text" id="input" placeholder="Looking For...">
+
+            <img src="/css/Website/search-512.png" style="height: 1.9rem;">
+        </from>
+
+
+    </nav>
+    <h2>The 40 Most-Used Linux Commands You Should Know </h2>
+    <img class="linux-img" src="/css/Website/linux-commands.jpg">
+    <h3>
+
+        What Is a Linux Command?
+    </h3>
+    <p>
+
+
+        A Linux command is a program or utility that runs on the command line. A command line is an interface that
+        accepts lines of text and processes them into instructions for your computer.
+
+        Any graphical user interface (GUI) is just an abstraction of command-line programs. For example, when you close
+        a window by clicking on the “X,” there’s a command running behind that action.
+
+        A flag is a way we can pass options to the command you run. Most Linux commands have a help page that we can
+        call with the flag -h. Most of the time, flags are optional.
+
+        Need to give a shoutout here. Kinsta is amazing, I use it for my personal website. The support is rapid and
+        outstanding, and their servers are the fastest for WordPress.
+        A picture of Phillip Stemann looking into the camera wearing a blue button down shirt
+        Phillip Stemann
+
+        View plans
+
+        An argument or parameter is the input we give to a command so it can run properly. In most cases, the argument
+        is a file path, but it can be anything you type in the terminal.
+
+        You can invoke flags using hyphens (-) and double hyphens (--), while argument execution depends on the order in
+        which you pass them to the function.
+
+
+
+    </p>
+    <h2>
+        The Most-Used Linux commands</h2>
+    <p>
+
+
+        Before jumping into the most-used Linux commands, make sure to fire up a terminal. In most Linux distributions,
+        you would use Ctrl + Alt + T to do so. If this isn’t working, search in your application panel for “terminal.”
+
+    </p>
+    <iimg>
+        <img src="/css/Website/terminal.png">
+    </iimg>
+
+
+
+    <!-- <center> --><strong>
+
+        <ol>
+            <div class="partition">
+
+
+                <li>ls - The most frequently used command in Linux to list directories </li>
+                <li>pwd - Print working directory command in Linux</li>
+                <li>cd - Linux command to navigate through directories</li>
+                <li>mkdir - Command used to create directories in Linux</li>
+                <li>mv - Move or rename files in Linux</li>
+                <li>cp - Similar usage as mv but for copying files in Linux</li>
+                <li>rm - Delete files or directories</li>
+                <li>touch - Create blank/empty files</li>
+                <li>ln - Create symbolic links (shortcuts) to other files</li>
+                <li>cat - Display file contents on the terminal</li>
+                <li>clear - Clear the terminal display</li>
+                <li>echo - Print any text that follows the command</li>
+                <li>less - Linux command to display paged outputs in the terminal</li>
+                <li>man - Access manual pages for all Linux commands</li>
+                <li>uname - Linux command to get basic information about the OS</li>
+                <li>whoami - Get the active username</li>
+                <li>tar - Command to extract and compress files in Linux</li>
+                <li>grep - Search for a string within an output</li>
+                <li>head - Return the specified number of lines from the top</li>
+                <li>tail - Return the specified number of lines from the bottom</li>
+                <li>diff - Find the difference between two files</li>
+                <li>cmp - Allows you to check if two files are identical</li>
+                <li>comm - Combines the functionality of diff and cmp</li>
+                <li>sort - Linux command to sort the content of a file while outputting</li>
+                <li>export - Export environment variables in Linux</li>
+            </div>
+            <div class="partition1">
+                <li>zip - Zip files in Linux</li>
+                <li>unzip - Unzip files in Linux</li>
+                <li>ssh - Secure Shell command in Linux</li>
+                <li>service - Linux command to start and stop services</li>
+                <li>ps - Display active processes</li>
+                <li>kill and killall - Kill active processes by process ID or name</li>
+                <li>df - Display disk filesystem information</li>
+                <li>mount - Mount file systems in Linux</li>
+                <li>chmod - Command to change file permissions</li>
+                <li>chown - Command for granting ownership of files or folders</li>
+                <li>ifconfig - Display network interfaces and IP addresses</li>
+                <li>traceroute - Trace all the network hops to reach the destination</li>
+                <li>wget - Direct download files from the internet</li>
+                <li>ufw - Firewall command</li>
+                <li>iptables - Base firewall for all other firewall utilities to interface with</li>
+                <li>apt, pacman, yum, rpm - Package managers depending on the distro</li>
+                <li>sudo - Command to escalate privileges in Linux</li>
+                <li>cal - View a command-line calendar</li>
+                <li>alias - Create custom shortcuts for your regularly used commands</li>
+                <li>dd - Majorly used for creating bootable USB sticks</li>
+                <li>whereis - Locate the binary, source, and manual pages for a command</li>
+                <li>whatis - Find what a command is used for</li>
+                <li>top - View active processes live with their system usage</li>
+                <li>useradd and usermod - Add new user or change existing users data</li>
+                <li>passwd - Create or update passwords for existing users</li>
+            </div>
+            <!-- </center> -->
+        </ol>
+    </strong>
+    <footerr class="footerr">
+        <div class="footer-row"></div>
+        <div class="About"><h3 style=" width: auto;background-color: #e4c639;left;">About</h3><h3>Its is infomative website about linux and its distributions</h3></div>
+        <div class="Downloads"><h3 style="width: auto; background-color: #e4c639;">Downloads</h3><ul><a link href="https://ubuntu.com/" target="_blank">Ubuntu</a></ul><ul><a link href="https://www.linuxliteos.com/" target="_blank">Linux lie</a></ul>  <ul><a link href="https://zorin.com/os/" target="_blank">zorin os</a></ul> </div>
+    </footerr>
+    <script src="linux.js"></script>
+</body>
+
+</html>
